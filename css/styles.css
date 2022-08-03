@@ -1072,7 +1072,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: var(--primary-white-color);
+  color: var(--primary-text-color);
 }
 
 .footer-subscribe-input.placeholder {
@@ -1088,7 +1088,4 @@ img {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-subscribe-input {
-  padding: 16px;
 }
