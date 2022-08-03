@@ -1072,7 +1072,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: var(--primary-text-color);
+  color: var(--primary-white-color);
 }
 
 .footer-subscribe-input.placeholder {
