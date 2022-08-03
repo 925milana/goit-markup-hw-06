@@ -147,7 +147,6 @@ img {
 .logo .link:focus,
 .logo .link:active {
   color: var(--accent-color);
-  outline: none;
   transition: color var(--animation);
 }
 
@@ -192,7 +191,6 @@ img {
 .site-nav .logo-link:active {
   color: var(--accent-color);
   transition: color var(--animation);
-  outline: none;
 }
 
 .site-nav .link {
@@ -228,7 +226,6 @@ img {
 .list-item .link:focus,
 .list-item .link:active {
   color: var(--accent-color);
-  outline: none;
   transition: color var(--animation);
 }
 
@@ -297,7 +294,6 @@ img {
 .btn-hero:focus,
 .btn-hero:active {
   background-color: var(--btncolor-hov);
-  outline: none;
   transition: background-color var(--animation);
 }
 
@@ -414,7 +410,6 @@ img {
 .btn-item:active {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  outline: none;
   transition: color var(--animation), background-color var(--animation);
 }
 
@@ -461,7 +456,6 @@ img {
 .project-link:hover,
 .project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  outline: none;
   transition: box-shadow var(--animation);
 }
 
@@ -484,8 +478,7 @@ img {
    transition: transform var(--animation);
    transform: translateY(0);
    opacity: 1;
-   outline: none;
- }
+  }
 
  .project-overlay {
    position: absolute;
@@ -594,7 +587,6 @@ img {
 
 .btn-portfolio-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  outline: none;
   transition: box-shadow var(--animation);
 }
 
@@ -626,7 +618,6 @@ img {
 .contacts-link:focus,
 .contacts-link:active {
   color: var(--accent-color);
-  outline: none;
   transition: color var(--animation);
 }
 
@@ -672,14 +663,12 @@ img {
 .social-links:focus,
 .social-links:active {
   background-color: var(--accent-color);
-  outline: none;
   transition: background-color var(--animation);
 }
 
 .social-links:hover .social-icon,
 .social-links:focus .social-icon {
   fill: #FFFFFF;
-  outline: none;
   transition: fill var(--animation);
 }
 
@@ -718,19 +707,18 @@ img {
 
 .clients-icon {
   fill: #AFB1B8;
+  transition: fill var(--animation);
 }
 
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
   fill: var(--accent-color);
-  outline: none;
   transition: fill var(--animation);
 }
 
 .clients-link:hover,
 .clients-link:focus {
   border: 1px solid rgba(33, 150, 243, 1);
-  outline: none;
   transition: border var(--animation);
 }
 
@@ -779,7 +767,6 @@ img {
 .footer-social-links:focus,
 .footer-social-links:active {
   background-color: var(--accent-color);
-  outline: none;
   transition: background-color var(--animation);
 }
 
@@ -787,7 +774,6 @@ img {
 .footer-social-links:focus .footer-social-icon {
   fill: var(--primary-white-color);
   background-color: var(--accent-color);
-  outline: none;
   transition: fill var(--animation), background-color var(--animation);
 }
 
@@ -832,6 +818,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(1) rotate(0);
 
+  padding: 40px;
   width: 528px;
   height: 581px;
   background-color: var(--primary-white-color);
@@ -867,7 +854,6 @@ img {
 .modal-btn:hover .modal-btn-icon,
 .modal-btn:focus .modal-btn-icon {
   fill: var(--accent-color);
-
   transition: fill var(--animation), background-color var(--animation);
 }
 
@@ -939,10 +925,7 @@ img {
 .register-form-input:hover+.register-form-message,
 .register-form-input:focus+.register-form-message {
   fill: var(--accent-color);
-
   transition: fill var(--animation), background-color var(--animation);
-
-
 }
 
 .register-form-input:hover,
@@ -1037,7 +1020,7 @@ img {
 
   padding: 10px 25px;
 
-  color: var(--main-color);
+  color: var(--primary-white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -1089,7 +1072,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: var(--main-color);
+  color: var(--primary-white-color);
 }
 
 .footer-subscribe-input.placeholder {
@@ -1105,4 +1088,7 @@ img {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-subscribe-input {
+  padding: 16px;
 }
